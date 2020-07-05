@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM APPLICATION AUTOMATION TEST SUITE]">
+  <test name="Free CRM Application Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="VerifyContactsLinkTest"/>
+          <include name="Teardown"/>
+          <include name="HomePageUserLabelTest"/>
+          <include name="VerifyDealsLinkTest"/>
+          <include name="setExtent"/>
+          <include name="HomePageTitleTest"/>
+          <include name="reportFlush"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="reportFlush"/>
+          <include name="LoginVerificationTest"/>
+          <include name="Setup"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="LoginPageCRMLogoTest"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="SelectContactsTest"/>
+          <include name="Teardown"/>
+          <include name="Setup"/>
+          <include name="CreateNewContactTest"/>
+          <include name="VerifyContactsLabel"/>
+          <include name="reportFlush"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Free CRM Application Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM APPLICATION AUTOMATION TEST SUITE] -->
